@@ -1,0 +1,158 @@
+body{
+	background:#eef2f6;
+}
+.header1 {
+	    position: relative;
+	left:0;top:0;
+	margin-left:15%;
+	width:70%;
+	height:7%;
+	text-align:right;
+}
+.header2 div{
+	display:inline-block;
+
+}
+.header2 {
+	margin-left:15%;
+	width:70%;
+	text-align:center;
+	background: #fff;
+}
+.head1 div{
+	text-align:left;
+}
+.head2 div{
+	text-align:center;
+}
+.head3 div{
+	text-align:right;
+}
+.footer {
+    position: fixed; /* Фиксированное положение */
+	height:5%;
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+.contain{
+	margin-left:15%;
+	width:70%;
+	min-height:60%;
+	background: #fff;
+position: absolute;
+}
+.regok{
+	text-align:center;
+}
+.nav ul li{
+
+}
+.nav {
+		margin-left:25%;
+	width:50%;
+}
+.nav h1{
+  margin: 2em 0px;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+
+
+.nav ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  
+}
+
+.nav ul.dropdown{ 
+  position: relative; 
+  width: 100%; 
+}
+
+.nav ul.dropdown li{ 
+  font-weight: bold; 
+  float: left; 
+  width: 180px; 
+  position: relative;
+
+}
+
+.nav ul.dropdown a:hover{ 
+  color: #000; 
+}
+
+.nav ul.dropdown li a { 
+  display: block; 
+  padding: 20px 8px;
+  color: #34495e; 
+  position: relative; 
+  z-index: 2000; 
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.nav ul.dropdown li a:hover,
+.nav ul.dropdown li a.hover{ 
+  background: #3498db;
+  position: relative;
+  color: #fff;
+}
+
+
+.nav ul.dropdown ul{ 
+ display: none;
+ position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 180px; 
+  z-index: 1000;
+}
+
+.nav ul.dropdown ul li { 
+  font-weight: normal; 
+  background: #f6f6f6; 
+  color: #000; 
+  border-bottom: 1px solid #ccc; 
+}
+
+.nav ul.dropdown ul li a{ 
+  display: block; 
+  color: #34495e !important;
+  background: #eee !important;
+} 
+
+.nav ul.dropdown ul li a:hover{
+  display: block; 
+  background: #3498db !important;
+  color: #fff !important;
+} 
+
+.nav .drop > a{
+  position: relative;
+}
+
+.drop > a:after{
+  content:"";
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  border-left: 5px solid transparent;
+  border-top: 5px solid #333;
+  border-right: 5px solid transparent;
+  z-index: 999;
+}
+
+.drop > a:hover:after{
+  content:"";
+   border-left: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-right: 5px solid transparent;
+}
