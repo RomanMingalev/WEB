@@ -130,12 +130,16 @@ $(function(){
 
 		</div>
         <div class="contain">
+
+			<h4>@yield('title')</h4>
+			<hr>
             @yield('content')
 			@yield('content2')
 			@yield('regok')
+			@yield('welcome')
         </div>
-		<div class="footer">
-		
+		<div class="footer1">
+	
 		</div>
     </body>
 </html>

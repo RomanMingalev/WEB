@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
-
+use App\Item;
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -14,8 +14,18 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-        // $this->call(UserTableSeeder::class);
+      $this->call('ItemTableSeeder');
 
         Model::reguard();
     }
+}
+class ItemTableSeeder extends Seeder {
+
+  public function run()
+  {
+      DB::table('item')->delete();
+
+      Item::create(array('name' => 'name'));
+  }
+
 }

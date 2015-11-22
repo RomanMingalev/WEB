@@ -1,12 +1,37 @@
 body{
 	background:#eef2f6;
 }
+.News{
+	display:inline;
+	text-align:center;
+	
+}
+.NewsOne{
+	text-align:left;
+	float: left;
+	margin-left:4.7%;
+	margin-top:1.5%;
+	margin-bottom:1.5%;
+	min-width:27%;
+	max-width:27%;
+	height:350px;
+	padding:10px 10px 10px 10px;
+	background:#fff;
+	  box-shadow:
+   0 1px 4px rgba(0, 0, 0, .3),
+   -23px 0 20px -23px rgba(0, 0, 0, .8),
+   23px 0 20px -23px rgba(0, 0, 0, .8),
+   0 0 40px rgba(0, 0, 0, .1) inset;
+}
+.NewsOne span{
+	color:#286090;
+}
 .header1 {
 	    position: relative;
 	left:0;top:0;
 	margin-left:15%;
 	width:70%;
-	height:7%;
+	//height:7%;
 	text-align:right;
 }
 .header2 div{
@@ -28,20 +53,17 @@ body{
 .head3 div{
 	text-align:right;
 }
-.footer {
-    position: fixed; /* Фиксированное положение */
-	height:5%;
-    left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 10px; /* Поля вокруг текста */
-    color: #fff; /* Цвет текста */
-    width: 100%; /* Ширина слоя */
+.footer1 {
+margin-top:10px;
+height:30px;
+background:white;
    }
 .contain{
 	margin-left:15%;
 	width:70%;
 	min-height:60%;
 	background: #fff;
-position: absolute; 
+  overflow: hidden;
 }
 .regok{
 	text-align:center;
@@ -51,7 +73,7 @@ position: absolute;
 }
 .nav {
 		margin-left:25%;
-	width:50%;
+	
 }
 .nav h1{
   margin: 2em 0px;
